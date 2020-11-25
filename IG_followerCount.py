@@ -69,7 +69,6 @@ profilesTxt = open("profiles.txt", "r")
 profiles = profilesTxt.read().split('\n')
 while("" in profiles) : 
     profiles.remove("") 
-print(profiles)
 
 #base url
 base = "https://www.instagram.com/"
